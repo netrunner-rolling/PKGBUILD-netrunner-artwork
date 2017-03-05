@@ -1,16 +1,16 @@
 # $Id$
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
-pkgname=netrunner-artwork-sounds
+pkgname=artwork-netrunner-icons
 pkgver=(date +%Y%m%d)
 pkgrel=1
 pkgdesc="Default Sounds for Netrunner Rolling"
 arch=('any')
-url='https://github.com/netrunner-artwork/netrunner-artwork-sounds'
+url='https://github.com/netrunner-artwork/artwork-netrunner-icons'
 license=('GPL')
 groups=('netrunner-artwork')
 makedepends=('git')
-source=('git://github.com/netrunner-artwork/netrunner-artwork-sounds')
+source=('git://github.com/netrunner-artwork/artwork-netrunner-icons')
 md5sums=('SKIP')
 
 package() {
