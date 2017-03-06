@@ -1,0 +1,19 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=artwork-lnf-theme-netrunner-rolling
+pkgver=(date +%Y%m%d)
+pkgrel=1
+pkgdesc="LNF theme for Netrunner Rolling Edition"
+arch=('any')
+url='https://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling'
+license=('GPL')
+groups=('netrunner-artwork')
+makedepends=('git')
+source=('git://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling')
+md5sums=('SKIP')
+
+package() {
+  cd $srcdir/$pkgname
+  cp -aR usr $pkgdir/
+}
