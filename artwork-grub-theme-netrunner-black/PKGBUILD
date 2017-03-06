@@ -1,0 +1,19 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=artwork-grub-theme-netrunner-black
+pkgver=(date +%Y%m%d)
+pkgrel=1
+pkgdesc="Default Sounds for Netrunner Rolling"
+arch=('any')
+url='https://github.com/netrunner-artwork/artwork-grub-theme-netrunner-black'
+license=('GPL')
+groups=('netrunner-artwork')
+makedepends=('git')
+source=('git://github.com/netrunner-artwork/artwork-grub-theme-netrunner-black')
+md5sums=('SKIP')
+
+package() {
+  cd $srcdir/$pkgname
+  cp -aR boot $pkgdir/
+}

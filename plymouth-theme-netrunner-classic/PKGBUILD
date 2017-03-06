@@ -1,0 +1,19 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=plymouth-theme-netrunner-classic
+pkgver=(date +%Y%m%d)
+pkgrel=1
+pkgdesc="Default Sounds for Netrunner Rolling"
+arch=('any')
+url='https://github.com/netrunner-artwork/plymouth-theme-netrunner-classic'
+license=('GPL')
+groups=('netrunner-artwork')
+makedepends=('git')
+source=('git://github.com/netrunner-artwork/plymouth-theme-netrunner-classic')
+md5sums=('SKIP')
+
+package() {
+  cd $srcdir/$pkgname
+  cp -aR usr $pkgdir/
+}

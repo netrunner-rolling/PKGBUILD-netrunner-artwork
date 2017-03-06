@@ -1,0 +1,19 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=artwork-wallpapers-netrunner-rolling
+pkgver=(date +%Y%m%d)
+pkgrel=1
+pkgdesc="Wallpapers for Netrunner Rolling Edition"
+arch=('any')
+url='https://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling'
+license=('GPL')
+groups=('netrunner-artwork')
+makedepends=('git')
+source=('git://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling')
+md5sums=('SKIP')
+
+package() {
+  cd $srcdir/$pkgname
+  cp -aR usr $pkgdir/
+}
