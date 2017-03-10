@@ -1,7 +1,7 @@
 # $Id$
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
-pkgname=netrunner-artwork-sounds
+pkgname=artwork-netrunner-sounds
 pkgver=$(date +%Y.%m)
 pkgrel=1
 pkgdesc="Default Sounds for Netrunner Rolling"
@@ -14,6 +14,6 @@ source=('git://github.com/netrunner-artwork/netrunner-artwork-sounds')
 md5sums=('SKIP')
 
 package() {
-  cd $srcdir/$pkgname
+  cd $srcdir/netrunner-artwork-sounds
   cp -aR usr $pkgdir/
 }
