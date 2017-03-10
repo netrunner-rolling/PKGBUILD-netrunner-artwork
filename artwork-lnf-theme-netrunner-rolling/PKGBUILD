@@ -2,7 +2,7 @@
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
 pkgname=artwork-lnf-theme-netrunner-rolling
-pkgver=(date +%Y%m%d)
+pkgver=(date +%Y.%m)
 pkgrel=1
 pkgdesc="LNF theme for Netrunner Rolling Edition"
 arch=('any')
