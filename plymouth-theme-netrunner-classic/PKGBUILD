@@ -10,6 +10,7 @@ url='https://github.com/netrunner-artwork/plymouth-theme-netrunner-classic'
 license=('GPL')
 groups=('netrunner-artwork')
 makedepends=('git')
+install=plymouth.install
 source=('git://github.com/netrunner-artwork/plymouth-theme-netrunner-classic')
 md5sums=('SKIP')
 
