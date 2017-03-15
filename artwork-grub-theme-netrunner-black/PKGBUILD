@@ -10,6 +10,7 @@ url='https://github.com/netrunner-artwork/artwork-grub-theme-netrunner-black'
 license=('GPL')
 groups=('netrunner-artwork')
 makedepends=('git')
+install=$pkgname.install
 source=('git://github.com/netrunner-artwork/artwork-grub-theme-netrunner-black')
 md5sums=('SKIP')
 
