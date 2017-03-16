@@ -9,6 +9,7 @@ arch=('any')
 url='https://github.com/netrunner-artwork/plymouth-theme-netrunner-classic'
 license=('GPL')
 groups=('netrunner-artwork')
+depends=('plymouth')
 makedepends=('git')
 install=plymouth.install
 source=('git://github.com/netrunner-artwork/plymouth-theme-netrunner-classic')
