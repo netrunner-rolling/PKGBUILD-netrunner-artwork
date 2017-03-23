@@ -15,6 +15,11 @@ install=plymouth.install
 source=('git://github.com/netrunner-artwork/plymouth-theme-netrunner-classic')
 md5sums=('SKIP')
 
+prepare() {
+  cd $srcdir/$pkgname
+  sed -e 's|^ImageDir=.*|ImageDir=/usr/share/plymouth/themes/netrunner-logo|' -i usr/share/plymouth/themes/netrunner-logo/netrunner-logo.plymouth
+}
+
 package() {
   cd $srcdir/$pkgname
   cp -aR usr $pkgdir/
