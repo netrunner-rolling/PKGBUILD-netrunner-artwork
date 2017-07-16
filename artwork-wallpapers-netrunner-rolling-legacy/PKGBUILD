@@ -13,7 +13,7 @@ url='https://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling'
 license=('GPL')
 groups=('netrunner-artwork')
 makedepends=('git')
-source=('git://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling')
+source=('git://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling#branch=legacy')
 md5sums=('SKIP')
 
 package() {
