@@ -4,7 +4,7 @@
 pkgname=artwork-grub-theme-netrunner-black
 pkgver=$(date +%Y.%m)
 pkgrel=1
-pkgdesc="Default Sounds for Netrunner Rolling"
+pkgdesc="Netrunner black theme for grub"
 arch=('any')
 url='https://github.com/netrunner-artwork/artwork-grub-theme-netrunner-black'
 license=('GPL')

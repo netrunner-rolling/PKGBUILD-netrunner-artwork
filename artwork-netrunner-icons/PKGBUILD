@@ -4,7 +4,7 @@
 pkgname=artwork-netrunner-icons
 pkgver=$(date +%Y.%m)
 pkgrel=1
-pkgdesc="Default Sounds for Netrunner Rolling"
+pkgdesc="Default Netrunner icons for menus"
 arch=('any')
 url='https://github.com/netrunner-artwork/artwork-netrunner-icons'
 license=('GPL')
