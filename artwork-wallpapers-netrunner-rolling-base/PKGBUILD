@@ -2,18 +2,18 @@
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
 _pkgname=artwork-wallpapers-netrunner-rolling
-pkgname=artwork-wallpapers-netrunner-rolling-legacy
+pkgname=artwork-wallpapers-netrunner-rolling-base
 pkgver=1.0
 pkgrel=1
 pkgdesc="Legacy Wallpapers for Netrunner Rolling Edition"
 arch=('any')
-provides=('artwork-wallpapers-netrunner-rolling')
-replaces=('artwork-wallpapers-netrunner-rolling')
+provides=('artwork-wallpapers-netrunner-rolling' 'artwork-wallpapers-netrunner-rolling-legacy')
+replaces=('artwork-wallpapers-netrunner-rolling' 'artwork-wallpapers-netrunner-rolling-legacy')
 url='https://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling'
 license=('GPL')
 groups=('netrunner-artwork')
 makedepends=('git')
-source=('git://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling#branch=legacy')
+source=('git://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling#branch=base')
 md5sums=('SKIP')
 
 package() {
