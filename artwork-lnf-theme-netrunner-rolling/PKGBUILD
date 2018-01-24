@@ -3,7 +3,7 @@
 
 pkgname=artwork-lnf-theme-netrunner-rolling
 pkgver=$(date +%Y.%m)
-pkgrel=1
+pkgrel=6
 pkgdesc="LNF theme for Netrunner Rolling Edition"
 arch=('any')
 url='https://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling'
