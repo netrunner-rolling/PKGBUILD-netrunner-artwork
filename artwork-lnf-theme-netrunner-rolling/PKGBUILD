@@ -3,12 +3,13 @@
 
 pkgname=artwork-lnf-theme-netrunner-rolling
 pkgver=$(date +%Y.%m)
-pkgrel=6
+pkgrel=1
 pkgdesc="LNF theme for Netrunner Rolling Edition"
 arch=('any')
 url='https://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling'
 license=('GPL')
 groups=('netrunner-artwork')
+depends=('artwork-color-scheme-carbon' 'artwork-wallpapers-netrunner-rolling-201806' 'artwork-whiteclassicia-cursor' 'desktop-theme-breeze-alphablack' 'plasma5-applets-volumewin7mixer' 'yakuake')
 makedepends=('git')
 source=('git://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling')
 md5sums=('SKIP')
