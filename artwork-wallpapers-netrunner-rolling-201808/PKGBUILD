@@ -4,12 +4,13 @@
 _pkgname=artwork-wallpapers-netrunner-rolling
 pkgname=artwork-wallpapers-netrunner-rolling-201808
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="2018.08 Wallpapers for Netrunner Rolling Edition"
 arch=('any')
 url='https://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling'
 license=('GPL')
 groups=('netrunner-artwork')
+replaces=('artwork-wallpapers-netrunner-rolling-201806')
 makedepends=('git')
 source=('git://github.com/netrunner-rolling/artwork-wallpapers-netrunner-rolling#branch=201808')
 md5sums=('SKIP')
