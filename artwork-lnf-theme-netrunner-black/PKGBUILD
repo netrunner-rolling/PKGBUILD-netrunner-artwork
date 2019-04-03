@@ -3,13 +3,13 @@
 
 pkgname=artwork-lnf-theme-netrunner-black
 pkgver=$(date +%Y.%m)
-pkgrel=3
+pkgrel=1
 pkgdesc="Black LNF theme for Netrunner Rolling Edition"
 arch=('any')
 url='https://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-black'
 license=('GPL')
 groups=('netrunner-artwork')
-depends=('artwork-wallpapers-netrunner-rolling-default' 'artwork-whiteclassicia-cursor' 'aurorae-theme-forman' 'desktop-theme-breeze-alphablack' 'kvantum-qt5' 'netrunner-rolling-settings' 'obsidian-icon-theme' 'plasma5-applets-volumewin7mixer' 'yakuake')
+depends=('artwork-wallpapers-netrunner-rolling-default' 'artwork-whiteclassicia-cursor' 'aurorae-theme-forman' 'desktop-theme-breeze-alphablack' 'gtk-theme-blackbird' 'kvantum-qt5' 'netrunner-rolling-settings' 'obsidian-icon-theme' 'plasma5-applets-volumewin7mixer' 'yakuake')
 makedepends=('git')
 source=('git://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-black')
 md5sums=('SKIP')
