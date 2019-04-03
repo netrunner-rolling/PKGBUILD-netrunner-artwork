@@ -2,14 +2,14 @@
 # Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
 pkgname=artwork-lnf-theme-netrunner-rolling
-pkgver=2018.08 #$(date +%Y.%m)
-pkgrel=1
+pkgver=$(date +%Y.%m)
+pkgrel=3
 pkgdesc="LNF theme for Netrunner Rolling Edition"
 arch=('any')
 url='https://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling'
 license=('GPL')
 groups=('netrunner-artwork')
-depends=('artwork-color-scheme-carbon' 'artwork-wallpapers-netrunner-rolling-201808' 'artwork-whiteclassicia-cursor' 'desktop-theme-breeze-alphablack' 'plasma5-applets-volumewin7mixer' 'yakuake')
+depends=('artwork-color-scheme-carbon' 'artwork-wallpapers-netrunner-rolling-default' 'artwork-whiteclassicia-cursor' 'desktop-theme-blackx' 'plasma5-applets-volumewin7mixer' 'yakuake')
 makedepends=('git')
 source=('git://github.com/netrunner-rolling/artwork-lnf-theme-netrunner-rolling')
 md5sums=('SKIP')
